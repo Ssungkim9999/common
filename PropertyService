@@ -3,7 +3,7 @@
  * @param file
  * @param key
  * @return String value that is property value on key from file(on parameter).properties file.
- */
+*/
 public static String getProperty(String file, String key) {
   Properties properties = new Properties();
   try {
@@ -20,7 +20,7 @@ public static String getProperty(String file, String key) {
  * @param file
  * @param key
  * @return List<String> contains String value that is split(by "#") data got from file(on parameter).properties file.
- */
+*/
 public static List<String> getPropertyToListByString(String file, String key){
   List<String> dataList = new ArrayList<>();
   String data = getProperty(file, key);
@@ -36,7 +36,7 @@ public static List<String> getPropertyToListByString(String file, String key){
  * @param key
  * @return List<DataMap> contains data that is got from file(on parameter).properties file.
  * @explain DataMap that was extends HashMap<String, Object>
- */
+*/
 public static List<DataMap> getPropertyToList(String file, String key) {
   List<DataMap> dataList = new ArrayList<>();
   try {
