@@ -4,7 +4,7 @@
  * @param param
  * @param className
  * @return ModelAndView contains all parameters and page info. Using for normal page move.
- */
+*/
 public static ModelAndView returnPage(String page, DataMap param, Class className) {
   ModelAndView mav = new ModelAndView();
   mav.setViewName("/WEB-INF/view/comm/layout.jsp");
@@ -28,7 +28,7 @@ public static ModelAndView returnPage(String page, DataMap param, Class classNam
  * @param param
  * @param className
  * @return ModelAndView contains all parameters and page info. Using for Ajax return page.
- */
+*/
 public static ModelAndView returnView(String page, DataMap param, Class className) {
   ModelAndView mav = new ModelAndView();
   mav.setViewName("/WEB-INF/view/"+page+".jsp");
