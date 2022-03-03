@@ -31,7 +31,7 @@ public static List<String> getPropertyToListByString(String file, String key){
 }
 
 /**
- * @author KAS
+ * @author Ssungkim9999
  * @param file
  * @param key
  * @return List<DataMap> contains data that is got from file(on parameter).properties file.
